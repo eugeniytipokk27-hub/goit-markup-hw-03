@@ -1,0 +1,95 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul,
+ol {
+  list-style: none;
+}
+.header.link.webstudio {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33333;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.header.link.web {
+  color: #4d5ae5;
+}
+
+.header.link.studio {
+  color: #2e2f42;
+}
+
+.header.link.features {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.header.link.team {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.header.link.portfolio {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.header.nav.mailto {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.header.header.nav.tel.tel {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.header.link.features:hover,
+.header.link.team:hover,
+.header.link.portfolio:hover,
+.header.link.features:focus,
+.header.link.team:focus,
+.header.link.portfolio:focus {
+  color: #404bbf;
+}
+.header.nav.mailto:hover,
+.header.nav.mailto:focus,
+.header.nav.tel:hover,
+.header.nav.tel:focus {
+  color: #404bbf;
+}
+address {
+  font-style: normal;
+}
+.header.nav.mailto,
+.header.nav.tel {
+  font-style: normal;
+}
+.header.nav.tel {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  font-style: normal;
+}
