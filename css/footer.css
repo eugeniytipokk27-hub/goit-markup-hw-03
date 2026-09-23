@@ -1,8 +1,10 @@
 .footer {
   background-color: #2e2f42;
+  height: 312px;
 }
 
 .footer-logo {
+  display: inline-block;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -11,11 +13,11 @@
   text-transform: uppercase;
 }
 
-.footer-logo .web {
+.footer-logo__accent {
   color: #4d5ae5;
 }
 
-.footer-logo .studio {
+.footer-logo__text {
   color: #f4f4fd;
 }
 
@@ -26,4 +28,5 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  width: 264px;
 }

@@ -2,11 +2,21 @@ a {
   text-decoration: none;
   color: inherit;
 }
-ul,
-ol {
-  list-style: none;
+
+.site-header {
+  background-color: #ffffff;
 }
-.header.link.webstudio {
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.site-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0;
+  margin-right: 76px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -15,15 +25,26 @@ ol {
   text-transform: uppercase;
 }
 
-.header.link.web {
+.site-logo__accent {
   color: #4d5ae5;
 }
 
-.header.link.studio {
+.site-logo__text {
   color: #2e2f42;
 }
 
-.header.link.features {
+.site-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.nav-link {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -31,65 +52,32 @@ ol {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.header.link.team {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.header.link.portfolio {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.header.nav.mailto {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-.header.header.nav.tel.tel {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-.header.link.features:hover,
-.header.link.team:hover,
-.header.link.portfolio:hover,
-.header.link.features:focus,
-.header.link.team:focus,
-.header.link.portfolio:focus {
+
+.nav-link:hover,
+.nav-link:focus {
   color: #404bbf;
 }
-.header.nav.mailto:hover,
-.header.nav.mailto:focus,
-.header.nav.tel:hover,
-.header.nav.tel:focus {
-  color: #404bbf;
-}
-address {
+
+.site-address {
+  margin-left: auto;
   font-style: normal;
 }
-.header.nav.mailto,
-.header.nav.tel {
-  font-style: normal;
+
+.contact-list {
+  display: flex;
+  gap: 24px;
+  list-style: none;
 }
-.header.nav.tel {
+
+.contact-link {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
   font-style: normal;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
 }
