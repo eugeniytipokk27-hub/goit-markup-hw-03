@@ -9,9 +9,9 @@
   cursor: pointer;
   border-radius: 4px;
   padding: 16px 32px;
+  border: none;
 }
 .hero {
-  min-height: 600px;
   padding: 188px 0;
   background-color: #2e2f42;
   text-align: center;
