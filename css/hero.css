@@ -9,11 +9,6 @@
   cursor: pointer;
   border-radius: 4px;
   padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  border: none;
-  box-sizing: border-box;
-  white-space: nowrap;
 }
 .hero {
   min-height: 600px;
